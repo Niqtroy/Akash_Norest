@@ -1,0 +1,134 @@
+*,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #313050;
+}
+.logo-container {
+  width: 100px;
+  margin-left: 50px;
+}
+#header-img {
+  max-width: 100%;
+}
+#nav-bar ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  margin-right: 50px;
+}
+#nav-bar .nav-link {
+  padding: 20px;
+  color: #333;
+  border: #fff;
+  background: #fff;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-right: 2px;
+  text-decoration: none;
+  box-shadow: 0px 0px 10px #e6d9d9;
+  transition: 0.5s;
+}
+#nav-bar .nav-link:hover {
+  background: #333;
+  border: #333;
+  color: #fff;
+}
+#home {
+  height: 90vh;
+  background: url(https://image.freepik.com/free-vector/abstract-technology-particle-background_52683-25766.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 600px) {
+  #home {
+    height: 60vh;
+  }
+}
+#service {
+  background: #0f0c29; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #24243e,
+    #302b63,
+    #0f0c29
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #24243e,
+    #302b63,
+    #0f0c29
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#service h1,
+h1 {
+  font-weight: 900;
+  font-size: 3rem;
+  color: #fff;
+}
+h1 {
+  background: #0f0c29; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #24243e,
+    #302b63,
+    #0f0c29
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #24243e,
+    #302b63,
+    #0f0c29
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-align: center;
+}
+#contact {
+  background: #0f0c29; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #24243e,
+    #302b63,
+    #0f0c29
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #24243e,
+    #302b63,
+    #0f0c29
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#form {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: space-between;
+}
+#form input {
+  padding: 20px;
+  margin-bottom: 2rem;
+  border: none;
+  border-bottom: 2px solid #fff;
+}
+#form input#submit {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  cursor: pointer;
+}
